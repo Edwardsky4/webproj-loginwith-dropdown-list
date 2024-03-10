@@ -1,0 +1,161 @@
+/* Custom CSS for Login Form */
+
+body {
+    background-image: url('img/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for registration form */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #191d2b;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(1, 241, 49, 0.5);
+}
+
+h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #aea527;
+    font-weight: 1000;
+}
+
+h4 {
+    color: #aea527;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 1000;
+}
+
+form {
+    margin-top: 20px;
+    color: #aea527;
+    font-weight: 1000;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.already-registered-text {
+    text-align: center;
+    font-weight: 800;
+}
+
+.already-registered-link {
+    color: #27AE60;
+    text-decoration: none;
+}
+
+.already-registered-link:hover {
+    color: #f2f2f2; /* Change color when hovered */
+}
+
+/* Styling for country, state, city, and barangay dropdowns */
+.form-select {
+    margin-bottom: 10px;
+}
+
+/* Styling for form inputs */
+.form-control {
+    font-family: 'Poppins', sans-serif;
+    background-color: #2a2e35;
+    border-color: #2a2e35;
+    border-radius: 30px;
+    color: #27AE60;
+    transition: background-color 0.3s;
+}
+
+/* Placeholder styling */
+.form-control::placeholder {
+    color: #6c7983;
+}
+
+/* Styling for form inputs when focused */
+.form-control:focus {
+    background-color: #2a2e35;
+    color: #f8f8f8;
+}
+
+/* Styling for success and error messages */
+.alert {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.alert-success {
+    background-color: #27AE60;
+    border-color: #aea527;
+    color: #12181b;
+}
+
+.alert-danger {
+    background-color: #721c24;
+    border-color: #aea527;
+    color: #12181b;
+}
+
+/* Styling for .form-g container */
+.form-g {
+    margin-bottom: 20px;
+}
+
+/* Styling for country, state, city, and barangay dropdowns */
+.form-select {
+    font-family: 'Poppins', sans-serif;
+    background-color: #2a2e35;
+    color: #6c7983;
+    border: 1px solid #2a2e35;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+/* Placeholder styling */
+.form-select option {
+    color: #27AE60;
+    background-color: #2a2e35;
+}
+
+/* Styling for state and city dropdowns */
+#MunicipalitystateSelect,
+#citySelect {
+    font-family: 'Poppins', sans-serif;
+    background-color: #2a2e35;
+    color: #6c7983;
+    border: 1px solid #2a2e35;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+/* Placeholder styling */
+#MunicipalitystateSelect option,
+#citySelect option {
+    color: #27AE60;
+    background-color: #2a2e35;
+}
+
+.btn-primary {
+    background-color: #27AE60;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 30px;
+}
+  
+.btn-primary:hover {
+    background-color: #aea527;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+        max-width: 100%;
+    }
+}
